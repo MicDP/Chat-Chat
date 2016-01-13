@@ -21,9 +21,7 @@ public class Client extends Frame {
 	private DataInputStream in = null;
 	private DataOutputStream out = null;
 
-	public Client() {
-		;
-	}
+	public Client() { 	}
 	
 	public Client(Socket s) {
 		this.s = s;
